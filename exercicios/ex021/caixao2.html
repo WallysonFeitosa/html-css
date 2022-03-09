@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: aqua;
+            margin: 0px;
+        }
+
+        header {
+            background-color: aliceblue;
+            padding: 10px;
+            margin:  10px;
+            border-radius: 15px;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 15px;
+        }
+
+        article {
+            background-color: aquamarine;
+        }
+
+        article > aside {
+            background-color: rgb(121, 121, 192);
+            text-align: center;
+        }
+
+        footer {
+            background-color: blue;
+            color: white;
+            text-align: center;
+            padding: 1px;
+        }
+        nav {
+            background-color: antiquewhite;
+        }  
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>noticias sobre o brasil</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit adipisci facilis quod totam fugiat dignissimos iusto. Animi, suscipit eius, totam aliquid omnis consectetur maiores sed eaque, quasi commodi eligendi sit!</p>
+                <aside>
+                    <p>artigo escrito por eu</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Dsesenvolvido por eu mermo</p>
+    </footer>
+</body>
+</html>
